@@ -1,0 +1,11 @@
+enum NotificationType = { Error, Info, Warning }
+
+event NotifyClient {
+	from: Server,
+	type: Reliable,
+	call: SingleAsync,
+	data: struct {
+		Message: string,
+		Type: NotificationType
+	}
+}

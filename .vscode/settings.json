@@ -1,0 +1,31 @@
+{
+  "[lua]": {
+    "editor.defaultFormatter": "JohnnyMorganz.stylua",
+    "editor.formatOnSave": true
+  },
+  "[luau]": {
+    "editor.defaultFormatter": "JohnnyMorganz.stylua",
+    "editor.formatOnSave": true
+  },
+  "stylua.targetReleaseVersion": "latest",
+  "robloxLsp.completion.callParenthesess": true,
+  "background.fullscreen": {
+    "style": {
+      "background-position": "100% 100%",
+      "background-size": "auto",
+      "opacity": 0.6
+    },
+    // Local images can be dragged into the browser to quickly get the file protocol address from the address bar
+    "images": [""],
+    "interval": 0,
+    "random": false
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "hide-files.files": [],
+}

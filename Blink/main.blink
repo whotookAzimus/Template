@@ -1,0 +1,4 @@
+option ServerOutput = "../Network/Server.luau"
+option ClientOutput = "../Network/Client.luau"
+
+import "./Example.blink"

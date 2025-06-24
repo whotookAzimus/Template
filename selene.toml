@@ -1,0 +1,18 @@
+std = "roblox"
+exclude = ["src/shared/Packages*", "/Network*"]
+
+[lints]
+manual_table_clone = "allow"
+empty_if = "deny"
+empty_loop = "deny"
+high_cyclomatic_complexity = "warn"
+if_same_then_else = "deny"
+ifs_same_cond = "deny"
+mixed_table = "allow"
+multiple_statements = "deny"
+parenthese_conditions = "deny"
+unbalanced_assignments = "deny"
+undefined_variable = "deny"
+unscoped_variables = "deny"
+unused_variable = "deny"
+roblox_incorrect_roact_usage = "allow"
